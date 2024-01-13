@@ -1,0 +1,22 @@
+<suite name="My second Automation TestNg" parallel="tests">
+	<test name="its secoind">
+		
+		<element name="configuration">
+			<parameter name="browser" value="chrome" />
+			<parameter name="hyperlink" value="https://login.yahoo.com/" />
+			<parameter name="username" value="ankit@yahoo.com" />
+			
+			
+				
+		<classes>
+			<class name="com.Parameter.ParameterTest" />
+			
+			
+		
+		</classes>
+			
+			
+			
+		</element>
+	</test>
+</suite>

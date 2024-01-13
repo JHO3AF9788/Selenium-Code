@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [My first Automation TestNg]">
+  <test thread-count="5" parallel="tests" name="its first(failed)">
+    <classes>
+      <class name="com.test.TesNgFeatures">
+        <methods>
+          <include name="MiddleOrder"/>
+          <include name="LowerMiddleOrder"/>
+          <include name="opening"/>
+          <include name="LowerOrder"/>
+        </methods>
+      </class> <!-- com.test.TesNgFeatures -->
+    </classes>
+  </test> <!-- its first(failed) -->
+</suite> <!-- Failed suite [My first Automation TestNg] -->

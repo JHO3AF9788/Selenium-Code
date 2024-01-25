@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Parameter.ParameterTest">
+      <class name="shoppingCart.ItemRemovedOrSoldOut">
         <methods>
-          <include name="yahooLoginTest"/>
+          <include name="ItemRemovedSoldOut"/>
         </methods>
-      </class> <!-- com.Parameter.ParameterTest -->
+      </class> <!-- shoppingCart.ItemRemovedOrSoldOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

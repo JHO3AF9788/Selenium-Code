@@ -1,0 +1,16 @@
+<suite name="My first Automation TestNg" parallel="tests">
+	
+	
+	<test name="its first">
+		
+		<classes>
+			<class name="com.test.TestNgBasics" />
+			<class name="com.test.TesNgFeatures" />
+			<class name="com.test.InvocationCountTest" />
+			<class name="com.test.GoogleTest" />
+			<class name="com.test.ExceptionTimeOutTest" />
+			
+			
+		</classes>
+	</test>
+</suite>

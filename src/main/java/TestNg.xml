@@ -1,16 +1,16 @@
-<suite name="My first Automation TestNg" parallel="tests">
-	
-	
-	<test name="its first">
-		
+<suite name="Amazon Website Test Automation Suite" parallel="tests">
+	<test name="Amazon Website Automated Testing Assignment">
 		<classes>
-			<class name="com.test.TestNgBasics" />
-			<class name="com.test.TesNgFeatures" />
-			<class name="com.test.InvocationCountTest" />
-			<class name="com.test.GoogleTest" />
-			<class name="com.test.ExceptionTimeOutTest" />
-			
-			
+			<class name="userLoginProcess.Login" />
+			<class name="userLoginProcess.InvalidLogin" />
+			<class name="userLoginProcess.InvalidLoginPassword" />
+			<class name="userLoginProcess.EdgeCases" />
+			<class name="userLoginProcess.EdgeCaseEmptyPassword" />
+			<class name="searchFunctionalityTest.AmazonSearch" />
+			<class name="searchFunctionalityTest.NoResultScenarios" />
+			<class name="shoppingCart.AddProduct" />
+			<class name="shoppingCart.ItemRemovedOrSoldOut" />
+			<class name="checkout.FullCheckoutProcess" />
 		</classes>
 	</test>
 </suite>
